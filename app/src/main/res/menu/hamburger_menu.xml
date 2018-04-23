@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_clock"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="Clock" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/gallery_thumb"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Music" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Google" />
+    </group>
+
+</menu>
